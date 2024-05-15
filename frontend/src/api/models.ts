@@ -103,12 +103,13 @@ export type ErrorMessage = {
 }
 
 export type UI = {
-  title: string
-  chat_title: string
-  chat_description: string
-  logo?: string
-  chat_logo?: string
+  title: string;
+  chat_title: string;
+  chat_description: string;
+  logo?: string;
+  chat_logo?: string;
   show_share_button?: boolean
+  show_chat_history_button?: boolean
 }
 
 export type FrontendSettings = {
